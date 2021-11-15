@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            div {
+                width: 70px;
+                height: 20px;
+                margin: 100px;
+                border: 1px solid #000000;
+                border-radius: 10px;
+                text-align: center;
+                text-decoration-line: none;
+            }
+        
+            .save {background-color: #d9d9d9;}
+            
+            .save:link {text-decoration: none;}
+            .save:hover {color: #00ffff;}
+            .save:visited {color:}
+
+            .delete {
+                background-color: #f000ff;
+            }
+            .edit {
+                background-color: #0000ff;
+            }
+            /*
+            a:link {color: #000000; text-decoration: none;}
+            a:hover {color: #0000FF; text-decoration: overline;}
+            a:visited {color: #000000;}
+            a:active {color: #0000FF; text-decoration: underline;}
+            */
+
+
+
+        </style>
+
+
+    </head>
+
+    <body>
+        <div class="save"> <!-- div 블럭임 -->
+            <a href="https://www.naver.com">저장버튼</a>
+        </div>
+
+        <!-- <button type="sumit">저장버튼</button> 어중간한 inline블록 가로 세로 줄 수 있음 -->
+        <br>
+        <div class="delete">
+            <a href="https://www.naver.com">삭제버튼</a>
+        </div>
+        <br>
+        <div class="edit"> 
+            <a href="https://www.naver.com">수정버튼</a>
+        </div>
+
+        
+
+    </body>
+
+</html>
